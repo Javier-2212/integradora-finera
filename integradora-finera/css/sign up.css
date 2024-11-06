@@ -1,0 +1,126 @@
+/* Estilos para el formulario de login */
+/* Centrado del contenedor principal */
+.formulario {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.contenedor-login {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contenedor-login h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los campos de entrada */
+.contenedor-login input[type="email"],
+.contenedor-login input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+
+/* Estilo del botón de inicio de sesión */
+.boton-login {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a76fd;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.boton-login:hover {
+    background-color: #3b5ec8;
+}
+
+/* Botones de redes sociales */
+.botones-sociales {
+    margin-top: 20px;
+}
+
+.botones-sociales button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-google {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.login-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+/* Estilo de 'Recordarme' */
+.recordarme {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.recordarme input {
+    margin-right: 8px;
+}
+
+/* Enlaces en la parte inferior */
+.enlaces {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.enlaces a {
+    color: #4a76fd;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+/* Solo aplicará a la página de inicio de sesión */
+.login-page .footer1 {
+    background-color: rgb(33, 39, 51);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: fixed; /* Fija el footer en la pantalla */
+    bottom: 0;       /* Lo coloca al fondo de la pantalla */
+    left: 0;
+    width: 100%;     /* Ocupa todo el ancho de la pantalla */
+}
